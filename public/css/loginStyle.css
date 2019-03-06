@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #222;
+    background-image:url('/static/img/signupBackground.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    min-width: 1080px;
+}
+
+.mainbox{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.mainbody{
+    margin-left: 31%;
+    width:34%;
+    height: 369px;
+    position: relative;
+    padding: 35px 30px;
+    color: black;
+    border-radius: 4px;
+    background: black;
+    box-shadow: 1px 1px 4px #767676;
+    opacity: 0.75;
+}
+
+input[type="text"]{
+    width:76%;
+    margin-left: 11%;
+    height:28px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+input[type="password"]{
+    width:76%;
+    margin-left: 11%;
+    height:28px;
+    min-height: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px;
+    margin-top: 30px;
+}
+
+button{
+    width:79%;
+    height:38px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 11%;
+    margin-top: 8%;
+    background-color: transparent;
+    border-color: white;
+    color:white;
+}
+
+button:disabled{
+    background-color: lightgrey;
+}
+
+.bott a{
+    color: lightgoldenrodyellow;
+}
+
+h3 {
+    font-size: 21px;
+    color: white;
+    float: top;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+
+.foot{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 3%;
+    padding-bottom: 30px;
+}
